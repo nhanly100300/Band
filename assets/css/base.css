@@ -1,0 +1,219 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#212121;
+    --primary-color:rgb(63, 208, 212);
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif ;
+    box-sizing: border-box;
+}
+
+.body__menu-list-link-current{
+    color: var(--primary-color) !important;
+}
+.ml8{
+   margin-left: 8rem !important; 
+}
+.mr8{
+    margin-right: 8rem !important;
+}
+.left-40{
+    left:-40% !important;
+}
+@keyframes percent-76{
+    from{
+        width: 0;
+    }
+    to{
+        width: 76%;
+    }
+}
+@keyframes percent-86{
+    from{
+        width: 0;
+    }
+    to{
+        width: 86%;
+    }
+}
+
+@keyframes percent-92{
+    from{
+        width: 0;
+    }
+    to{
+        width: 92%;
+    }
+}
+
+
+
+/* footer */
+.footer{
+    background-color: #212121;
+}
+.footer__item{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+.footer__item-img{
+    text-decoration: none;
+    width: 80%;
+    margin-bottom: 1.8rem;
+}
+.footer__item-img img{
+    width: 100%;
+}
+.footer__item-text{
+    font-size: 1.7rem;
+    line-height: 2.64rem;
+    font-weight: 400;
+    color: #a9a9a9;
+    margin: 0 0 1.7rem 0;
+}
+.footer__item-link{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+}
+.footer__item-link:hover .footer__item-icon ,
+.footer__item-link:hover .footer__item-address{
+    color: var(--primary-color);
+}
+.footer__item-icon{
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+.footer__item-address{
+    font-size: 1.6rem;
+    color: var(--white-color);
+    padding-left: 1rem;
+}
+.footer__item-post{
+    display: block;
+    width: 100%;
+}
+.footer__item-post h5{
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 600;
+    margin: 0 0 3.6rem 0;
+}
+.footer__item-country{
+    display: block;
+}
+.footer__item-country--item{
+    display: block;
+    margin-bottom: 2.6rem;
+}
+.footer__item-country--link{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white-color);
+}
+.color-brown{
+    color: #a9a9a9;
+}
+.footer__item-country--link:hover{
+    color: var(--primary-color);
+}
+
+.footer__item-social{
+    display: block;
+}
+.footer__item-social h5{
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 600;
+    margin: 0 0 3rem 0;
+}
+.footer__item-infor{
+    display: block;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    color: #a9a9a9;
+}
+.footer__item-contact{
+    width: 100%;
+  }
+  .footer__item-contact--name{
+    width: 100%;
+    background-color: #505050;
+    margin-bottom: 0.8rem;
+  }
+  .footer__item-contact--icon{
+    font-size: 1.4rem;
+    color: var(--white-color);
+    margin-left: 2rem;
+   
+  }
+  .footer__item-contact--write{
+    padding: 1.4rem 1.6rem 1.4rem 2rem;
+    outline: none;
+    border: none;
+    background-color: #505050;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+  
+  
+  }
+  .footer__item-contact--subscribe{
+    display: block;
+  }
+  .footer__item-contact--send{
+    width: 100%;
+    padding: 2rem 1.6rem 1.6rem 2rem;
+    outline: none;
+    border: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color:var(--primary-color);
+  }
+  .footer__item-contact--send:hover{
+    background-color:var(--white-color);;
+    color:  var(--black-color);
+    cursor: pointer;
+  }
+  .footer__Powered{
+    width: 100%;
+    text-align: center;
+    padding: 1.4rem 0;
+    border: 0.1rem solid #5f5c58;
+  }
+  .footer__Powered-text{
+    font-size: 1.4rem;
+    color: #a9a9a9;
+    font-weight: 400;
+  }
+  .footer__Powered-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 400;
+  }
+  .footer__Powered-link:hover{
+      color: var(--primary-color);
+  }
+/* .underline-animation-white {
+  background: linear-gradient(var(--white-color) 0 0) 
+    0 100% / var(--d , 0) 2px 
+  no-repeat;
+  transition:0.5s;
+}
+.underline-animation-white:hover{
+  --d:100%;
+} */
